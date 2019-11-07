@@ -1,0 +1,20 @@
+﻿<html>
+    <header>
+	    <title>Регистрация</title>
+	    <link rel="stylesheet" href="../css/style.css" type="text/css">
+	</header>
+	<body>
+	    <h1> Регистрация </h1>
+		<table>
+		<form action="../php/controllers/registration_controller.php" method = "post">
+
+            <tr><td><p>Логин: <input name = "login" type = "text" required></p></tr></td>
+
+            <tr><td><p>Пароль: <input name = "password" type = "password" required></p></tr></td>
+
+            <!--<p><input type = 'submit' value = 'Зарегистироваться!'></p>-->
+            <tr><td><button type = "submit">Зарегистрироваться</button></tr></td>
+        </form>
+        </table>
+	</body>
+</html>

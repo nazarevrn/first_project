@@ -1,0 +1,21 @@
+﻿<html>
+    <header>
+	    <title>Отпуска</title>
+	    <link rel="stylesheet" href="../css/style.css" type="text/css">
+	</header>
+	<body>
+
+		<table>
+		<form action="../php/controllers/holiday_create_controller.php" method = "post" >
+
+            <tr><td><p>Дата начала отпуска: <input name = "holiday_start" type = "date" required></p></tr></td>
+
+            <tr><td><p>Дата окончания отпуска: <input name = "holiday_end" type = "date" required></p></tr></td>
+
+            <!-- <p><input type = 'submit' value = 'Отправить'></p> -->
+            <tr><td><p><button type = "submit" style = "height:5%; width:60%" >Создать</button></p></tr></td>
+
+        </form>
+        </table>
+	</body>
+</html>

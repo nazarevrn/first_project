@@ -1,0 +1,33 @@
+﻿<html>
+    <header>
+	    <?php session_start(); ?>
+	    <title>Отпуска</title>
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+
+        
+	</header>
+	<!-- Делим страницу на 2 строки -->
+	<frameset rows = "15%, 2%, 83%" border = "0">
+
+	        <frameset cols = "15%, 2%, 66%, 2%, 15%">
+			    <frame src = "frames/logo.html" scrolling = "no" marginwidth = "0" marginheight = "0" noresize >
+			    <frame src = "frames/blank.html" scrolling = "no" marginwidth = "0" marginheight = "0" noresize >
+				<frame src = "frames/header.html" scrolling = "no" marginwidth = "0" marginheight = "0" noresize >
+				<frame src = "frames/blank.html" scrolling = "no" marginwidth = "0" marginheight = "0" noresize >
+			    <frame src = "frames/user.php" name = "user" scrolling="no" marginwidth = "0" marginheight = "0" noresize >
+			</frameset>
+		<frameset>
+		<frame src = "frames/blank.html" scrolling = "no" marginwidth = "0" marginheight = "0" noresize >
+		</frameset>
+			
+
+		<!-- Делим третью строку на 5 столбцов-->
+		<frameset cols = "15%, 2%, 66%, 2%, 15%" border = "0" >
+		    <frame src = "frames/left_menu.php" name = "left_menu" scrolling="no" marginwidth = "0" marginheight = "0" noresize >
+		    <frame src = "frames/blank.html" scrolling = "no" marginwidth = "0" marginheight = "0" noresize >
+		    <frame src = "frames/holiday_create.html" name = "workfield" scrolling="yes" marginwidth = "0" marginheight = "0" noresize >
+	    	<frame src = "frames/blank.html" scrolling = "no" marginwidth = "0" marginheight = "0" noresize >
+		    <frame src = "frames/right_menu.php" name = "right_menu" scrolling="no" marginwidth = "0" marginheight = "0" noresize >
+		</frameset>
+	</frameset>
+</html>
