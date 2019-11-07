@@ -1,14 +1,9 @@
 ﻿<?php
 
-    class Holiday
-	{
-	    //
-		public $login;
-		public $begin;
-		public $end;
-		public $agreed;
-	}
-	
-
-	
-?>
+class Holiday
+{
+    public $login;
+    public $begin;
+    public $end;
+    public $agreed;
+}

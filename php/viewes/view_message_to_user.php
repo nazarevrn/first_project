@@ -1,11 +1,11 @@
 ﻿<?php
-    class Show_message_to_user
-	{
-		public $message;
+class Show_message_to_user
+{
+    public $message;
 
-        public function show_message($message)
-		{
-			echo '
+    public function show_message($message)
+    {
+        echo '
             <html>
             <head>
             </head>
@@ -13,6 +13,5 @@
 	            <script type="text/javascript">alert("' . $message . '");</script>
 	        </body>
             </html>';
-		}
-	}
-?>
+    }
+}
